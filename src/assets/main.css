@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tabs-choose{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  display: inline-block;
+}
+.tabs-choose li{
+background-color: #eee;
+cursor: pointer;
+opacity: 0.4;
+padding: 10px;
+}
+.tabs-choose li.active{
+  opacity: 1;
+}
+.tabs-content{
+  background-color: #2e2e2e;
+  color: white;
+  padding:10px;
+  line-height: 1.5;
+}
